@@ -9,7 +9,6 @@ body {
 #banner {
   position: relative;
   width: 100%;
-  z-index: -1;
 }
 
 #stripes {
@@ -67,23 +66,6 @@ body {
   margin: 0 5%;
 }
 
-/*button {
-  white-space: nowrap;
-  display: inline-block;
-  height: 40px;
-  line-height: 40px;
-  padding: 0 14px;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
-  background: #fff;
-  border-radius: 4px;
-  font-size: 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .025em;
-  color: #6772e5;
-  text-decoration: none
-}*/
-
 button {
   background: #3ECF8E;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.20);
@@ -93,6 +75,16 @@ button {
   height: 60px;
   padding: 15px 30px;
   border: none;
+  cursor: pointer;
+}
+
+button:active {
+  background: #a1ffc8;
+  color: black;
+}
+
+button:focus {
+  outline:0;
 }
 
 header {
